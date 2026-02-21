@@ -1,0 +1,9 @@
+pre-commit:
+  parallel: true
+  commands:
+    ruff-check:
+      run: uv run ruff check .
+    ruff-format:
+      run: uv run ruff format --check .
+    pyright:
+      run: uv run pyright

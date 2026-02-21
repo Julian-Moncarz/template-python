@@ -1,0 +1,22 @@
+[project]
+name = "project-name"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+    "pytest",
+    "hypothesis",
+    "pyright",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+
+[tool.pyright]
+typeCheckingMode = "standard"
