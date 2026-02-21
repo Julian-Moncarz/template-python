@@ -9,7 +9,11 @@ dev-dependencies = [
     "pytest",
     "hypothesis",
     "pyright",
+    "pytest-cov",
 ]
+
+[tool.pytest.ini_options]
+addopts = "--cov=src --cov-report=term-missing --cov-fail-under=80"
 
 [tool.ruff]
 line-length = 120
