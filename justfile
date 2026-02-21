@@ -1,3 +1,8 @@
+setup:
+    uv sync
+    lefthook install
+    @echo "Ready to go!"
+
 lint:
     uv run ruff check .
 
