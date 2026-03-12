@@ -49,10 +49,7 @@
 - Tests: pytest + hypothesis
 - CI: GitHub Actions
 - Git hooks: lefthook
-- Issue tracking: Linear (use `lineark` CLI)
-  - `lineark issues list` — see Linear issues
-  - `lineark issues create --title "..." --team <team>` — create issues
-  - `lineark usage` — full command reference
+- Issue tracking: Linear
 
 ## Logging
 - Use structured logging (key-value pairs)
